@@ -1,0 +1,6 @@
+{
+  "name": "DZEN IT Portfolio",
+  "description": "Interactive MedTech portfolio with modular clinical layouts, timelines, brief wizard, and dynamic laboratory widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
