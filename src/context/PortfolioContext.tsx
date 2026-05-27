@@ -30,7 +30,7 @@ export const usePortfolio = () => {
 
 export const PortfolioProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('RU');
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
   const [cursorState, setCursorState] = useState<CursorState>({ type: 'default' });
   const [selectedCaseId, setSelectedCaseId] = useState<string | null>(null);
   const [showBrief, setShowBrief] = useState(false);
